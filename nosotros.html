@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
+  <!--llamo a los stikers -->
+  <script src="https://kit.fontawesome.com/57918501d9.js" crossorigin="anonymous"></script>
+  <!--llamo al archivo JavaScript-->
+  <script defer src="./main.js"></script>
+  <!--Llamo al archivo de CSS-->
+<link rel="stylesheet" href="style.css">
+    <title>nosotros</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="./imagenes/logorc5.png" alt="logorca">
+        </a>
+        </div>
+        <nav>
+          <ul>
+            <a href="nosotros.html"><li>NOSOTROS</li></a>
+            <a href="equipo.html"><li>EQUIPO</li></a>
+            <a href="contacto.html"><li>CONTACTO</li></a>
+            <a href="replicajunior.html"><li>REPLICAJA</li></a>
+        </ul>
+        </nav>
+    </header>
+    
+<div class="container">
+    <div class="row">
+    </div>
+  <div class="Blog">
+  <div class="row">
+    <h2>Noticias</h2>
+     <!--primera noticia -->
+    <div class="col-md-4">
+      <h2>Pensión alimenticia</h2>
+      <div id="contenido">
+      <!--este contenedor es el que quiero ocultar o mostrar -->
+      <img src="./imagenes/Blog/pensionimg.png"alt="pensionimg">
+      <p>Cuando el que tiene derechos a recibir alimentos deja de necesitarlos, cuando el acreedor alimentario mayor de edad
+      ejerza violencia familiar o infiera injurias graves en contra del deudor alimentario.</p>  
+   </div>
+    <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+  
+     <!--segunda noticia -->
+     <div class="col-md-4">
+      <h2>Concubinato</h2>
+      <div id="contenido2">
+      <!--este contenedor es el que quiero ocultar o mostrar -->
+      <img src="./imagenes/Blog/concubimg.png"alt="Concubimg">
+      <p>Es la union de hecho,realizada voluntariamente entre dos personas libres de vínculo matrimonial, que han vivido públicamente
+        como cónyuges durante dos años o más o que en su caso, han procreado uno o más hijos.</p>  
+   </div>
+    <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+   
+  <!--Tercera noticia -->
+  <div class="col-md-4">
+    <h2>Divorcio incausado</h2>
+    <div id="contenido3">
+    <!--este contenedor es el que quiero ocultar o mostrar -->
+    <img src="./imagenes/Blog/divinca.png"alt="Divincaimg">
+    <p>No necesitas del consentimiento de tu pareja,no requieres presentar alguna causa o motivo de Divorcio
+      No te pueden negar el divorcio,podras gozar de proteccion contra violencia de tu conyuge,puedes tramitar tu divorcio 
+      si te casaste en otro estado, o en el extranjero.</p>  
+  </div>
+  <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+  
+  <break></break>
+  <!--OCULTAR Y MOSTRAR BLOG-NOTICIAS-->
+<div class="container">
+    <div class="row">
+    </div>
+  <div class="Blog">
+  <div class="row">
+     <!--primera noticia -->
+    <div class="col-md-4">
+      <h2>Inocencia</h2>
+      <div id="contenido4">
+      <!--este contenedor es el que quiero ocultar o mostrar -->
+      <img src="./imagenes/Blog/inocencia.png"alt="imginocencia">
+      <p>Cuando el que tiene derechos a recibir alimentos deja de necesitarlos, cuando el acreedor alimentario mayor de edad
+      ejerza violencia familiar o infiera injurias graves en contra del deudor alimentario.</p>  
+   </div>
+    <button onclick='muestra_oculta("contenido4")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+  
+     <!--segunda noticia -->
+     <div class="col-md-4">
+      <h2>Justicia</h2>
+      <div id="contenido5">
+      <!--este contenedor es el que quiero ocultar o mostrar -->
+      <img src="./imagenes/Blog/imgjusticia.png"alt="imgjusticia">
+      <p>Es la union de hecho,realizada voluntariamente entre dos personas libres de vínculo matrimonial, que han vivido públicamente
+        como cónyuges durante dos años o más o que en su caso, han procreado uno o más hijos.</p>  
+   </div>
+    <button onclick='muestra_oculta("contenido5")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+   
+  <!--Tercera noticia -->
+  <div class="col-md-4">
+    <h2>Sucesiones</h2>
+    <div id="contenido6">
+    <!--este contenedor es el que quiero ocultar o mostrar -->
+    <img src="./imagenes/Blog/sucesiones.png"alt="imgsuceciones">
+    <p>No necesitas del consentimiento de tu pareja,no requieres presentar alguna causa o motivo de Divorcio
+      No te pueden negar el divorcio,podras gozar de proteccion contra violencia de tu conyuge,puedes tramitar tu divorcio 
+      si te casaste en otro estado, o en el extranjero.</p>  
+  </div>
+  <button onclick='muestra_oculta("contenido6")' class="btn btn-primary" form="contenido">+</button>
+  </div>
+  
+  <break></break>
+      <!--videos de asesoria legal -->
+
+<div class="asesoria legal">
+  <div class="row">
+  </div>
+<div class="col-md-6">
+<div class="row">
+  <h2>Te brindamos asesoría legal familiar</h2>
+<div class="col-md-6">
+  <div id="videoasesoria">
+    <iframe width="700" height="450" src="https://www.youtube.com/embed/RNzuEIxom1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>  
+</div> 
+<footer>
+  <div class="container-footer">
+     <div class="red-social">
+       <a href="#"><i class="fab fa-facebook icon-redes-footer"></i></a>
+       <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+       <a href="#"><i class="fab fa-twitter icon-redes-footer"></i></a>
+       <a href="#"><i class="fab fa-youtubeicon-redes-footer"></i></a>
+       <hr>
+     <h4>©2023 R&C Abogados- Todos el contenido es para fines educativos de RosaRamirez</h4>
+     </div> 
+   </div>
+     
+</footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
